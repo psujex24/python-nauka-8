@@ -1,16 +1,31 @@
-# This is a sample Python script.
+lista = ["Subskrybuj", "Kanał", "o", "Wszystkim"]
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+i = 0
+while i < len(lista):
+    print(lista[i])
+    i += 1
 
+print("-------------------------------------------------")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#to wyżej ale krócej
 
+for x in lista:
+    print(x)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print(list(range(10)))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+for y in range(10):
+    print(y)
+
+print("---------------------------------------------------")
+
+for z in range(1,11):
+    print(z)
+
+print("----------------------------------------------------")
+
+for q in range (1,11,2):
+    print(q)
+
+# kod zrobiony w celach nauki
+# https://youtu.be/UXLSGMKJp4Q?si=rI6N4i56caCAvRKr
